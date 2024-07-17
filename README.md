@@ -1,8 +1,8 @@
-# Proyecto Final 2do Mod
+# Proyecto Final 2do Modulo
 
-# _PRGRAMACIÓN EN KOTLIN_ :
+# _PROGRAMACIÓN EN KOTLIN_ :
 
-## SESION 1 ¿QUE ES KOTLIN? 💻
+## SESION 1º
 
 #### 1.Declaración de Variables
 
