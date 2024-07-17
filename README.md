@@ -317,7 +317,7 @@ fun main() {
 ```
 
 
-## SESIÓN 3: PROGRAMACIÓN ORIENTADA A OBJETOS - PARTE I 👨‍💻
+## SESIÓN 3: PROGRAMACIÓN ORIENTADA A OBJETOS - PARTE I 
 
 
 ### 1. Clase Libro
@@ -462,7 +462,7 @@ fun main() {
 }
 ```
 
-## SESIÓN 4: PROGRAMACIÓN ORIENTADA A OBJETOS - PARTE II 🔄
+## SESIÓN 4: PROGRAMACIÓN ORIENTADA A OBJETOS - PARTE II 
 
 ## 1. Herencia y Polimorfismo
 
