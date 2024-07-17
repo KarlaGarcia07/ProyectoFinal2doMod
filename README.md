@@ -2,7 +2,7 @@
 
 # _PROGRAMACIÓN EN KOTLIN_ :
 
-## SESIÓN 1º
+## SESIÓN 1º ¿QUE ES KOTLIN?
 
 #### 1. Declaración de Variables
 
