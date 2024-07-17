@@ -725,6 +725,8 @@ val listaDoble= transformarLista(numeros){it * 2}
 println("Lista duplicada: $listaDoble")
        
 }      
+```
+## 2. Funciones en línea
 
 
 
