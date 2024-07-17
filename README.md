@@ -2,9 +2,6 @@
 
 # _FUNDAMENTOS KOTLIN_ :electron:
 
-*_Autora: Karla Azucena Garcia Baza ._*
-
-
 ## SESION 1 ¿QUE ES KOTLIN? 💻
 
 #### 1.Declaración de Variables
