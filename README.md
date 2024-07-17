@@ -669,3 +669,23 @@ fun main() {
     verificarHabilidades(triatleta)
 }
 ```
+
+## SESIÓN 5º - FUNCIONES LITERALES Y FUNCIONES DE ORDEN SUPERIOR. 
+
+## 1. Expresiones Lambda.
+
+* Declarar variables que contengan funciones
+  
+* Utilizar funciones como parámetros de entrada o salida dentro de otra función.
+
+* Crea una función literal que calcule el cuadrado de un número y úsala para calcular el cuadrado de 5.
+
+```Kotlin
+val cuadrado = {x: Int -> x * x}
+
+fun main(){
+    println(cuadrado(5))
+}
+
+
+
