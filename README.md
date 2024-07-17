@@ -672,7 +672,7 @@ fun main() {
 
 ## SESIÓN 5º - FUNCIONES LITERALES Y FUNCIONES DE ORDEN SUPERIOR. 
 
-## 1. Expresiones Lambda.
+## 1. Funciones literales.
 
 * Declarar variables que contengan funciones
   
