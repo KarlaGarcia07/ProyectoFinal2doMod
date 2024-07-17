@@ -757,8 +757,65 @@ fun main(){
 
 ## SESIÓN 7º NULL SAFETY - KOTLIN FUNDAMENTALS.
 * Analizar cómo Kotlin evita las excepciones de tipos nulos.
-* Implementar soluciones con tipos nullables 
+* Implementar soluciones con tipos nullables.
+
+## 1. Null Safety
+```Kotlin
+fun main() {
+    var nombre: String? = "Juan"
+    println(nombre?.length)
+    nombre = null
+    println(nombre?.length)
+    val longitud = nombre?.length ?: 0
+    println(longitud)
+}
 
 
+```
+## 2. Try Catch
+```Kotlin
+fun main() {
+    try{
+        val resultado = 10 / 0
+        println(resultado)
+    } catch (e:ArithmeticException) {
+        println("Error: Division por cero")
+    } finally {
+        println("Operación finalizada")
+    }
+}
 
+```
+
+## 3. Cast
+```Kotlin
+fun main () {
+    val objeto: Any = "1"
+    
+    //Unsafe Cast
+    val texto1 = objeto as String
+    println(texto1.length)
+    
+    //Safe Cast
+    val numero = objeto as? Int
+    println(numero)
+}
+
+```
+## 3. Cast 2
+```Kotlin
+
+fun main () {
+    val objeto: Any = 123
+    try{
+        val texto1 = objeto as String
+        println(texto1.length)
+    } catch (e: ClassCastException){
+        println("Error: No se pudo convertir objeto a String")
+    }
+    val numero = objeto as? Int
+    println(numero)
+}
+
+```
 
