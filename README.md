@@ -726,9 +726,22 @@ println("Lista duplicada: $listaDoble")
        
 }      
 ```
-## Filtro y Mapa:
 
-## Ejercicio 5: Crea una función que tome una lista de temperaturas en Celsius y las convierta a Fahrenheit. Luego, en la función main, crea una lista de temperaturas en Celsius, aplica la conversión, e imprime los resultados.
+## Partition
+
+## Ejercicio 5: Vamos a trabajar con una lista de números y usaremos partition para separar los números pares de los impares.
+
+```Kotlin
+
+fun main(){
+val numeros = listOf(10,6,4,8,5,2,8,9,4,3,6,7,9,10,10,10,4,6,7)
+val (pares, impares) = numeros.partition{it % 2 == 0}
+println("Números pares: $pares")
+println("Números impares: $impares")
+}
+```
+## Map
+## Ejercicio 6: Crea una función que tome una lista de temperaturas en Celsius y las convierta a Fahrenheit. Luego, en la función main, crea una lista de temperaturas en Celsius, aplica la conversión, e imprime los resultados.
 
 ```Kotlin
 fun CelsiusaFahrenheit(temperaturas: List<Double>): List <Double>{
@@ -741,6 +754,10 @@ fun main(){
 }
 
 ```
+
+## SESIÓN 7º NULL SAFETY - KOTLIN FUNDAMENTALS.
+* Analizar cómo Kotlin evita las excepciones de tipos nulos.
+* Implementar soluciones con tipos nullables 
 
 
 
