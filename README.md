@@ -1,8 +1,8 @@
-# Proyecto Final 2do Modulo
+# Proyecto Final 2do Módulo
 
 # _PROGRAMACIÓN EN KOTLIN_ :
 
-## SESION 1º
+## SESIÓN 1º
 
 #### 1.Declaración de Variables
 
@@ -170,7 +170,7 @@ fun main(){
   println("IMC: ${"%.2f".format(imc)}")
 }
 ```
-## SESIÓN 2 FUNDAMENTOS DE PROGRAMACIÓN. 🖱️
+## SESIÓN 2 FUNDAMENTOS DE PROGRAMACIÓN.
 
 ### 1. Calculadora de volumen de cilindro
 
@@ -462,7 +462,7 @@ fun main() {
 }
 ```
 
-## SESIÓN 4: PROGRAMACIÓN ORIENTADA A OBJETOS - PARTE II 
+## SESIÓN 4º - PARTE II 
 
 ## 1. Herencia y Polimorfismo
 
