@@ -1,6 +1,6 @@
 # Proyecto Final 2do Mod
 
-# _FUNDAMENTOS KOTLIN_ :electron:
+# _PRGRAMACIÓN EN KOTLIN_ :
 
 ## SESION 1 ¿QUE ES KOTLIN? 💻
 
