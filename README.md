@@ -702,20 +702,12 @@ fun main(){
 ## 3. Ejercicio 3: Función de orden superior personalizada: Crea una función de orden superior llamada aplicarOperacion que tome dos números y una función, y aplique esa función a los números.
 
 ```Kotlin
-fun aplicarOperacion(a: Int, b: Int, operacion: (Int, Int) -> Int): Int { 
+fun aplicarOperacion(a: Int, b: Int, operacion: (Int, Int) -> Int): Int{
     return operacion(a,b)
-}
-
-fun suma(a: Int, b: Int)  = a+b  
-
-fun main(){ 
-    
-val resultado1 = aplicarOperacion(5,3) {x,y -> x + y}
-println(resultado1)
-
-val resultado2 = aplicarOperacion(5,3) {x,y -> x * y}
-println(resultado2)
-
+} 
+val suma = aplicarOperacion(5.0, 3.0){x, y -> x + y}
+fun main(){
+    println("Suma: $suma")
 }
 
 
