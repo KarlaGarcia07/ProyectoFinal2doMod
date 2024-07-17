@@ -687,5 +687,15 @@ fun main(){
     println(cuadrado(5))
 }
 
+## 2. Ejemplo: Uso simple de función de orden superior: Utiliza la función de orden superior filter para obtener una lista de números pares de una lista dada
+```Kotlin
+val numero = listOf(1,2,3,4,5,6,7,8,9,10)
+val pares = numero.filter{it % 2 == 0}
+
+fun main(){
+    println(pares)
+}
+
+
 
 
