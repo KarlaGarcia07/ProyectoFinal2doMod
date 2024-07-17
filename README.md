@@ -726,10 +726,21 @@ println("Lista duplicada: $listaDoble")
        
 }      
 ```
-## 2. Funciones en línea
+## Filtro y Mapa:
 
+## Ejercicio 5: Crea una función que tome una lista de temperaturas en Celsius y las convierta a Fahrenheit. Luego, en la función main, crea una lista de temperaturas en Celsius, aplica la conversión, e imprime los resultados.
 
+```Kotlin
+fun CelsiusaFahrenheit(temperaturas: List<Double>): List <Double>{
+    return temperaturas.map{it * 9/5 + 32}
+}
+fun main(){
+    val temperaturasC= listOf(10.0, 120.0, 40.0, 38.0)
+    val temperaturasF = CelsiusaFahrenheit(temperaturasC)
+    println("Temperaturas en Fahrenheit: $temperaturasF")
+}
 
+```
 
 
 
